@@ -1,0 +1,26 @@
+{
+  "name": "simple-login",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/color-mode": "^3.5.2",
+    "@nuxtjs/tailwindcss": "latest",
+    "@sidebase/nuxt-session": "^0.2.8",
+    "h3": "^1.15.3",
+    "nuxt": "latest",
+    "yup": "^1.6.1",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "eslint-import-resolver-node": "^0.3.9",
+    "typescript": "^5.3.3"
+  }
+}
